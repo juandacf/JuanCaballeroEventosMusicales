@@ -1,0 +1,30 @@
+
+
+@media (max-width: 768px){ 
+.nav {
+    height:2rem;
+    width:100vw;
+    display:flex;
+    justify-content:space-between;
+}
+.nav__button{
+    height:1.5rem;
+    width:1.5rem;
+    margin-right:0.7rem;
+}     
+}
+
+@media (max-width: 992px){ 
+     
+}
+
+@media (max-width: 992px){ 
+     
+}
+
+@media (min-width: 992px){ 
+     
+}
+
+
+
