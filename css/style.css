@@ -1,18 +1,43 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @media (max-width: 768px){ 
 .nav {
     height:2rem;
-    width:100vw;
+    width:98vw;
     display:flex;
     justify-content:space-between;
+    margin-top: 2rem;
 }
 .nav__button{
-    height:1.5rem;
-    width:1.5rem;
+    height:2rem;
+    width:2rem;
     margin-right:0.7rem;
 }     
+.title__h2 {
+    margin:0.7rem;
+    font-family:Inter, serif;
+    font-size:2rem;
+    color: #000000;
+    margin-left:0px;
 }
+.title {
+    margin-top:2.5rem;
+}
+.title__h2--purple{
+    color: #761CBC
+}
+.searchBar {
+    height:2rem;
+}
+.searchBar__input {
+    height:2rem;
+    border:none;
+}
+.searchBar__loupe {
+    height:2rem;
+}
+}
+
 
 @media (max-width: 992px){ 
      
