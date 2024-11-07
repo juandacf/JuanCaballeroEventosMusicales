@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
 @media (max-width: 768px){ 
+body {
+    background: linear-gradient(45deg, #FAFFFF, #FFFFFF);
+}
 .nav {
     height:2rem;
     width:98vw;
@@ -27,14 +31,23 @@
     color: #761CBC
 }
 .searchBar {
-    height:2rem;
+    height:2.5rem;
+    padding:0px;
+    display:flex;
+    align-items:center;
+    
 }
 .searchBar__input {
     height:2rem;
-    border:none;
+    border:white;
 }
 .searchBar__loupe {
-    height:2rem;
+    height:1.5rem;
+}
+
+.searchBar__button{
+    background-color: white;
+    border: white;;
 }
 }
 
