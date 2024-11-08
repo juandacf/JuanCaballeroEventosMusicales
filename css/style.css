@@ -2,6 +2,9 @@
 
 
 @media (max-width: 768px){ 
+.mobile {
+    padding:0.5rem
+}
 body {
     background: linear-gradient(45deg, #FAFFFF, #FFFFFF);
 }
@@ -16,6 +19,9 @@ body {
     height:2rem;
     width:2rem;
     margin-right:0.7rem;
+}
+.nav__button--notification {
+    margin-right:1.5rem;
 }     
 .title__h2 {
     margin:0.7rem;
@@ -40,6 +46,7 @@ body {
 .searchBar__input {
     height:2rem;
     border:white;
+    width:76vw;
 }
 .searchBar__loupe {
     height:1.5rem;
@@ -49,7 +56,31 @@ body {
     background-color: white;
     border: white;;
 }
+.searchBar__config {
+    height:1.2rem;
 }
+.optionNavigator {
+    display:flex;
+    flex-direction:row;
+    margin:1rem;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+
+}
+.navigatorItem {
+    font-size: 1rem;
+    margin-right:1rem;
+    margin-bottom:0.5rem;
+    height: auto;
+    width:auto;
+    justify-content:left;
+    padding:0.4rem;
+    border-radius: 25%;
+    border:none;
+}
+
+}
+
 
 
 @media (max-width: 992px){ 
