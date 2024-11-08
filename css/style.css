@@ -14,7 +14,7 @@ body {
     width:98vw;
     display:flex;
     justify-content:space-between;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .nav__button{
     height:2rem;
@@ -99,6 +99,9 @@ body {
     border-radius: 7%;
     margin-right:0.6rem;
 }
+.band {
+    height:30vh;
+}
 .trendingEventsContent {
     display:flex;
     overflow-x: scroll;
@@ -115,9 +118,15 @@ body {
     border-radius:8%;
     font-weight: bolder;
 }
-.band {
-
+.eventsNearYouTitle{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
 }
+.eventsNearYouContent {
+    display:flex;
+}
+
 }
 
 
