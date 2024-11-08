@@ -126,7 +126,39 @@ body {
 .eventsNearYouContent {
     display:flex;
 }
+.ENYimage{
+    width:38vw;;
+    height:11.2vh;;
+    border-radius:7%;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+}
+.TEitem {
+    width:40vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding:0.3rem;
+    margin-right:1.5rem
+}
 
+.h4 {
+    font-weight:bold;
+}
+.TEtext {
+    margin:0;
+    padding:0;
+}
+.textContainer {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    line-height: 0.7rem;
+}
+.TEtext__orange {
+    color: #EC441E
+}
 }
 
 
