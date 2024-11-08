@@ -3,7 +3,7 @@
 
 @media (max-width: 768px){ 
 .mobile {
-    padding:0.5rem
+    padding:0.5rem;
 }
 body {
     background: linear-gradient(45deg, #FAFFFF, #FFFFFF);
@@ -103,8 +103,22 @@ body {
     display:flex;
     overflow-x: scroll;
 }
+.textBox__trendingEvents {
+    color:white;
+    position:relative;
+    margin:auto;
+    height:auto;
+    width:80vw;
+    bottom:5rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius:8%;
+    font-weight: bolder;
 }
+.band {
 
+}
+}
 
 
 @media (max-width: 992px){ 
