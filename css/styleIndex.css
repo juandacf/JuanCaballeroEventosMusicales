@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+@media (min-width: 768px) {
+    html{
+        height:100vh;
+        width:100vw;
+        background: linear-gradient(to bottom right, #A8E6CF, #FFC1D1);
+    }
+    .container {
+        height:100vh;
+        width:100vw;
+        
+    }
+    .container__upperPoints {
+        position:absolute
+    }
+    .container__lowerPoints {
+        position:absolute;
+        top:82vh;
+    }
+    .container__circle{
+        position:absolute;
+        left:20vw;
+        top:23vh;
+    }
+    .container__celphones {
+        position:absolute;
+        height:90vh;
+        left:45vw;
+        top:9vh;
+    }
+    .container__title{
+        position:absolute;
+        text-decoration:none;
+        color: #A626B1;
+        top:23vh;
+        left:20vw;
+        font-size: 6vh;
+        font-weight:bold;
+    }
+
+}
+
+@media (max-width: 768px){
+    html {
+        height:100vh;
+        width:100vw;
+        background: linear-gradient(to bottom right, #A8E6CF, #FFC1D1);
+    }
+    .container {
+        height:100vh;
+        width:100vw;
+        
+
+    }
+    .container__upperPoints {
+        display:none;
+    }
+    .container__lowerPoints {
+        position:absolute;
+        top:80%;
+    }
+
+    .container__celphones{
+        position:absolute;
+        height:45vh;
+        top:60vh;
+        right:-10vw;
+
+    }
+    .container__title{
+        position:absolute;
+        text-decoration:none;
+        color: #A626B1;
+        top:23vh;
+        left:10vw;
+        font-size: 4vh;
+        font-weight:bold;
+    }
+}
