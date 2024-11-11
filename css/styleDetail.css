@@ -7,14 +7,14 @@
     font-family:Inter, serif;
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .container{
         height:100vh;
         width:100vw;
     }
     .img__top{
         height:40vh;
-        width:102vw;
+        width:100vw;
     }
     .previous__Button--Image {
         height:2.5vh;
@@ -68,10 +68,14 @@
         display:flex;
         flex-direction:column;
         gap:1vh;
+        margin:2vh;
+        height:auto;
+        padding-bottom:1vh;
     }
     .location__mapIMage{
         border-radius: 5%;
         height:20vh;
+        border-color:white;
     }
     .ticketBox {
         height:10vh;
@@ -92,7 +96,6 @@
         display:flex;
         justify-content: center;
         align-items:center;
-        
     }
     .buyButton{
         color:white;
@@ -101,6 +104,137 @@
         font-size:2vh;
         padding:1.5vh 3vh;;
         border-radius:3vh;
+    }
+    .participant{
+        height:4vh;
+    }
+}
+@media(max-height: 740px) {
+    .descriptionBox{
+        margin-top:15vh;
+    }
+    .ticketBox {
+        margin-top:15vh;
+    }
+}
 
+@media (min-width: 767px){
+    .container{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .previous__Button{
+        position:absolute;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(1px);
+        border: none; 
+        border-radius: 8%;
+        height:6vh;
+        top:2vh;
+        left:2vw;
+    }
+    .previous__Button--Image{
+        height:6vh;
+    }
+    .img__top{
+        width:100vw;
+        height:60vh;
+    }
+    .textBox{
+        background-color: white;
+        height:40vh;
+        width:50vw;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8%;
+    }
+    .participant {
+        height:8vh;
+    }
+    .h3{
+        font-size:4vh;
+        margin:1vh;
+    }
+    .h3__purple{
+        color:#761CBC
+    }
+    .textBox__item{
+        font-size:2.5vh;
+        margin:1vh;
+    }
+    .textBox__Participants{
+        font-size:3vh;
+        margin:1vh;
+    }
+    .descriptionBox{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        width:73vw;
+        margin-top:6vh;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10%;
+        padding:2vh;
+    }
+    .descriptionTitle{
+        font-size:4vh;
+        margin:1vh;
+        font-weight: bold;
+        margin-bottom: 2vh;;
+    }
+    .descriptionContent{
+        font-size:3vh;
+        text-align:justify
+    }
+    .descriptionContent__blueText{
+        color: #0092FC
+    }
+    .locationBox{
+        height:55vh;
+        width:50vw;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        margin-top:4vh;
+        border-radius: 8%;
+    }
+    .location__mapIMage{
+        width:auto;
+        width:40vw;
+        height:45vh;
+    }
+    .ticketBox{
+        margin-top:3vh;
+        display: flex;
+        justify-content: space-evenly;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .priceSection{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .buyButtonSection{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+    .buyButton{
+        background: #761CBC;
+        height:5vh;
+        width:7vw;
+        border:none;
+        color:white;
+        font-weight:bold;
+        border-radius: 9%;
     }
 }
