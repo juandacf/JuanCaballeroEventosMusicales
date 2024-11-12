@@ -15,13 +15,13 @@
 }
 
 @media(max-width: 767px){
-    html{
+    .bigContainer{
         height:100vh;
         width:100vw;
         background: linear-gradient(to right, #92B5FE, #F0DDFF);
         display:flex;
-        justify-content:center;
-        align-items:center;
+        justify-content: center;
+        align-items: center;
     }
     .previous__Button--Image {
         height:2.5vh;
@@ -55,6 +55,9 @@
         border-radius: 8%;
     }
     .container{
+        display:absolute;
+        left:5vw;
+        top:10vh;
         height:80vh;
         width:90vw;
         background-color:white;
@@ -62,6 +65,7 @@
         display:flex;
         flex-direction:column;
         padding:2vh;
+        
 
     }
     .container__topImage{
