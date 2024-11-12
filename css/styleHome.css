@@ -2,11 +2,12 @@
 
 .link{
     text-decoration: none;
-    text-decoration-color:none ;
+    color:black;
 }
 .link:visited{
     color:initial;
 }
+
 @media (max-width: 767px){ 
 .mobile {
     padding:0.5rem;
@@ -154,6 +155,7 @@ body {
 .TEtext {
     margin:0;
     padding:0;
+    color:black;
 }
 .textContainer {
     display:flex;
@@ -161,6 +163,7 @@ body {
     justify-content: center;
     align-items:center;
     line-height: 0.7rem;
+    text-decoration: none;
 }
 .TEtext__orange {
     color: #EC441E
@@ -293,6 +296,7 @@ body {
     gap:4vw;
 }
 .textContainer {
+    text-decoration: none;
     display:flex;
     flex-direction: column;
     align-items:Center;
@@ -300,6 +304,7 @@ body {
 }
 .TEtext {
     font-size: 2vh;
+    color:black;
 }
 .TEtext__orange {
     color: #EC441E;
