@@ -1,103 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Mobile App</title>
     <link rel="stylesheet" href="../css/styleHome.css">
 </head>
+
 <body>
     <div class="mobile">
-    <nav class="nav">
-        <img src="../media/menuIconMobile.png" class="nav__button"> 
-        <img src="../media/notificationIcon.png" class="nav__button nav__button--notification"alt="Notification Icon">
-    </nav>
-    <div class="title">
-    <h2 class="title__h2 ">Find  </h2> 
-    <h2 class="title__h2 title__h2--purple">Trending Events</h2>
-    </div>
-    <div class="searchBar">
-        <button class="searchBar__button" ><img src="../media/loupe.png" class="searchBar__loupe"> </button>
-        <input type="search" src="../media/loupe.png" placeholder="Search event.." class="searchBar__input">
-        <button class="searchBar__button"> <img src="../media/barrasConfig.png" class="searchBar__config"> </button>
-    </div>
-    <div class="optionNavigator">
-        <button class="navigatorItem">Music</button>
-        <button class="navigatorItem"> Exhibition</button>
-        <button class="navigatorItem">StandUp</button>
-        <button class="navigatorItem"> Theater</button>
-        <button class="navigatorItem"> Dance</button>
-    </div>
+        <nav class="nav">
+            <img src="../media/menuIconMobile.png" class="nav__button">
+            <img src="../media/notificationIcon.png" class="nav__button nav__button--notification"
+                alt="Notification Icon">
+        </nav>
+        <div class="title">
+            <h2 class="title__h2 ">Find </h2>
+            <h2 class="title__h2 title__h2--purple">Trending Events</h2>
+        </div>
+        <div class="searchBar">
+            <button class="searchBar__button"><img src="../media/loupe.png" class="searchBar__loupe"> </button>
+            <input type="search" src="../media/loupe.png" placeholder="Search event.." class="searchBar__input">
+            <button class="searchBar__button"> <img src="../media/barrasConfig.png" class="searchBar__config"> </button>
+        </div>
+        <div class="optionNavigator">
+            <button class="navigatorItem">Music</button>
+            <button class="navigatorItem"> Exhibition</button>
+            <button class="navigatorItem">StandUp</button>
+            <button class="navigatorItem"> Theater</button>
+            <button class="navigatorItem"> Dance</button>
+        </div>
 
-   <div class="trendingEventsContainer">
-    <div class="trendingEventsTitle">
-        <h3 class="h3"> Trending Events</h3>
-        <p class="trendingEventsTitle--center">see all</p>           
-    </div> 
-    <div class="trendingEventsContent">
-        <div class="band">
-            <img src="../media/chrisMartinJumping.jpg" class="img__trendingEvents" alt="ColdPlay">
-            <div class="textBox__trendingEvents">
-                <span>
-                    Coldplay: Music of the Spheres <br>
-                    📍Gelora Bung Karno Stadium <br>
-                    📅November 15 2023 
-                </span>                
+        <div class="trendingEventsContainer">
+            <div class="trendingEventsTitle">
+                <h3 class="h3"> Trending Events</h3>
+                <p class="trendingEventsTitle--center">see all</p>
             </div>
-        </div>
-        <div class="band">
-            <img src="../media/museWorldTour.jpg" class="img__trendingEvents" alt="ColdPlay">
-            <div class="textBox__trendingEvents">
-                <span>
-                    Muse:World Tour <br>
-                    📍Gelora Bung Karno Stadium <br>
-                    📅November 15 2023 
-                </span>                
+            <div class="trendingEventsContent">
+                <a href="../pages/detailColdPlay.html" class="link">
+                    <div class="band">
+                        <img src="../media/chrisMartinJumping.jpg" class="img__trendingEvents" alt="ColdPlay">
+                        <div class="textBox__trendingEvents">
+                            <span>
+                                Coldplay: Music of the Spheres <br>
+                                📍Gelora Bung Karno Stadium <br>
+                                📅November 15 2023
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <a href="./detailMuse.html" class="link">
+                    <div class="band">
+                        <img src="../media/museWorldTour.jpg" class="img__trendingEvents" alt="ColdPlay">
+                        <div class="textBox__trendingEvents">
+                            <span>
+                                Muse:World Tour <br>
+                                📍Gelora Bung Karno Stadium <br>
+                                📅November 15 2023
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <a href="./detail1d.html" class="link">
+                    <div class="band">
+                        <img src="../media/oneDirection.jpg" class="img__trendingEvents" alt="ColdPlay">
+                        <div class="textBox__trendingEvents">
+                            <span>
+                                One Direction: Here We Are <br>
+                                📍Gelora Bung Karno Stadium <br>
+                                📅November 15 2023
+                            </span>
+                        </div>
+                    </div>
+                </a>
             </div>
-        </div>
-        <div class="band">
-            <img src="../media/oneDirection.jpg" class="img__trendingEvents" alt="ColdPlay">
-            <div class="textBox__trendingEvents">
-                <span>
-                    One Direction: Here We Are <br>
-                    📍Gelora Bung Karno Stadium <br>
-                    📅November 15 2023 
-                </span>                
-            </div>  
-        </div>
-    </div>
-    <div class="eventsNearYouContainer">
-        <div class="eventsNearYouTitle">
-            <h3 class="h3"> Events Near You</h3>
-            <p class="trendingEventsTitle--center">see all</p>     
-        </div>
-        <div class="eventsNearYouContent">
-            <div class="TEitem">
-                <img src="../media/museWorldTour.jpg" class="ENYimage">
-                <div class="textContainer"> 
-                    <div class="TEtext h4">Muse Tour</div><br>
-                    <div class="TEtext" >📍Jakarta, Indonesia </div><br>
-                    <div class="TEtext" >📅 July 23 2023 </div><br>
-                    <div class="TEtext TEtext__orange" >🏷️ IDR500.0000</div>
+            <div class="eventsNearYouContainer">
+                <div class="eventsNearYouTitle">
+                    <h3 class="h3"> Events Near You</h3>
+                    <p class="trendingEventsTitle--center">see all</p>
+                </div>
+                <div class="eventsNearYouContent">
+                    <a href="./detailMuse.html" class="link">
+                        <div class="TEitem">
+                            <img src="../media/museWorldTour.jpg" class="ENYimage">
+                            <div class="textContainer">
+                                <div class="TEtext h4">Muse Tour</div><br>
+                                <div class="TEtext">📍Jakarta, Indonesia </div><br>
+                                <div class="TEtext">📅 July 23 2023 </div><br>
+                                <div class="TEtext TEtext__orange">🏷️ IDR500.0000</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./detail1d.html" class="link">
+                        <div class="TEitem">
+                            <img src="../media/oneDirection.jpg" class="ENYimage">
+                            <div class="textContainer">
+                                <div class="TEtext h4">One Direction Tour</div><br>
+                                <div class="TEtext">📍Jakarta, Indonesia </div><br>
+                                <div class="TEtext">📅 July 23 2023 </div><br>
+                                <div class="TEtext TEtext__orange">🏷️ IDR500.0000</div>
+                            </div>
+                    </a>
+
                 </div>
             </div>
-            <div class="TEitem" >
-                <img src="../media/oneDirection.jpg" class="ENYimage">
-                <div class="textContainer"> 
-                    <div class="TEtext h4">One Direction Tour</div><br>
-                    <div class="TEtext" >📍Jakarta, Indonesia </div><br>
-                    <div class="TEtext" >📅 July 23 2023 </div><br>
-                    <div class="TEtext TEtext__orange" >🏷️ IDR500.0000</div>
-                </div>
 
-                
-            </div>
         </div>
 
-    </div>
-
-</body> 
+</body>
 
 </html>
 
-<!-- pc:1200px / portatil: 992px /tablet 768px / movil: 320--> 
+<!-- pc:1200px / portatil: 992px /tablet 768px / movil: 320-->

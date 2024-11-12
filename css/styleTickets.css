@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Inter, serif;
+}
+.link{
+    text-decoration: none;
+    text-decoration-color:none ;
+}
+.link:visited{
+    color:initial;
+}
+
+@media(max-width: 767px){
+    html{
+        height:100vh;
+        width:100vw;
+        background: linear-gradient(to right, #92B5FE, #F0DDFF);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .previous__Button--Image {
+        height:2.5vh;
+    }
+    .previous__Button{
+        height: 4vh;
+        width:4vh;
+        position:absolute;
+        top:2.5vh;
+        left:6vw;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(1px);
+        border: none; 
+        border-radius: 8%;
+    }
+    .previous__Button--config{
+        height: 4vh;
+        width:4vh;
+        position:absolute;
+        top:2.5vh;
+        right:6vw;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(1px);
+        border: none; 
+        border-radius: 8%;
+    }
+    .container{
+        height:80vh;
+        width:90vw;
+        background-color:white;
+        border-radius:9%;
+        display:flex;
+        flex-direction:column;
+        padding:2vh;
+
+    }
+    .container__topImage{
+        border-radius: 9%;
+    }
+    .container__titleBox--titleSubheading{
+        color:#5F5A5A;
+        font-size:1.5vh;
+    }
+    .container__titleBox{
+        margin-top:1.5vh;
+        margin-bottom:1.5vh;
+    }
+    .textContainer{
+        display:flex;
+        flex-direction:row;
+        height:30vh;
+    }
+    .textContainer__part1{
+        width:50%;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+    }
+    .textContainer__part2{
+        width:50%;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+    }
+    .part1__item{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    .barcode{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .barCode__img{
+        height:18vh;
+        align-self: center;
+    }
+}
+@media (min-width: 768px) {
+    html{
+        height:100vh;
+        width:100vw;
+        background: linear-gradient(to right, #92B5FE, #F0DDFF);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .previous__Button{
+        position:absolute;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(1px);
+        border: none; 
+        border-radius: 8%;
+        height:6vh;
+        top:2vh;
+        left:2vw;
+    }
+    .previous__Button--Image{
+        height:4vh;
+    }
+    .previous__Button--config{
+        position:absolute;
+        background: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(2px);
+        border: none; 
+        border-radius: 8%;
+        height:6vh;
+        top:2vh;
+        right:2vw;
+        padding:1vh;
+    }
+    .container{
+        height:100vh;
+        width:40vw;
+        background-color:white;
+        border-radius:9%;
+        display:flex;
+        flex-direction:column;
+        padding:2vh;
+    }
+    .container__topImage{
+        height:30vh;
+        width:35vw;
+        margin:auto;
+        border-radius: 8%;
+    }
+    .container__titleBox--titleSubheading{
+        color:#5F5A5A;
+        font-size:1.5vh;
+    }
+    .container__titleBox{
+        margin-top:1.5vh;
+        margin-bottom:1.5vh;
+        font-size:3vh;
+        text-align: center;
+    }
+    .textContainer{
+        display:flex;
+        flex-direction:row;
+        height:30vh;
+        text-align: center;
+    }
+    .textContainer__part1{
+        width:50%;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+        font-size:2vh;
+    }
+    .textContainer__part2{
+        width:50%;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+        font-size:2vh;
+    }
+    .barcode{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .barCode__img{
+        height:20vh;
+        width:30vw;
+        align-self: center;
+        margin-bottom:1vh;
+    }
+}
+

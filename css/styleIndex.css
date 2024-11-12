@@ -3,7 +3,13 @@
     padding:0px;
 
 }
-
+.link{
+    text-decoration: none;
+    text-decoration-color:none ;
+}
+.link:visited{
+    color:initial;
+}
 @media (min-width: 768px) {
     html{
         height:100vh;

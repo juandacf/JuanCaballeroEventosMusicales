@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
-@media (max-width: 768px){ 
+.link{
+    text-decoration: none;
+    text-decoration-color:none ;
+}
+.link:visited{
+    color:initial;
+}
+@media (max-width: 767px){ 
 .mobile {
     padding:0.5rem;
 }
@@ -162,7 +168,7 @@ body {
 }
 
 
-@media (min-width: 768px){ 
+@media (min-width: 767px){ 
 *{
     margin:0;
     padding:0;

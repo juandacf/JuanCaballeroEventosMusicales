@@ -7,6 +7,14 @@
     font-family:Inter, serif;
 }
 
+.link{
+    text-decoration: none;
+    text-decoration-color:none ;
+}
+.link:visited{
+    color:initial;
+}
+
 @media (max-width: 767px){
     .container{
         height:100vh;
