@@ -87,8 +87,10 @@
         border-color:white;
     }
     .ticketBox {
-        height:10vh;
+        height:15vh;
         display:flex;
+        justify-content:center ;
+        align-items: center;
     }
     .priceSection{
         width:50vw;
